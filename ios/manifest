@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+architectures: armv7 arm64 i386 x86_64
+description: titanium-mapbox is a Swift based Titanium module.
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2018 by Your Company
+
+# these should not be edited
+name: titanium-mapbox
+moduleid: ti.mapbox
+guid: 6f0a80c7-7e50-4e67-bbb8-8cc36b629740
+platform: iphone
+minsdk: 8.0.0.v20181003073835
