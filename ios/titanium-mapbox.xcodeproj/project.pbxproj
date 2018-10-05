@@ -7,35 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB24E03C20766AC90033B2B1 /* TiMapboxExampleProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB24E03B20766AC90033B2B1 /* TiMapboxExampleProxy.swift */; };
+		3AF2E5D02167DD8300CE1C59 /* TitaniumKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AF2E5CF2167DD8300CE1C59 /* TitaniumKit.framework */; };
+		3AF2E5D22167DDFD00CE1C59 /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AF2E5D12167DDFD00CE1C59 /* Mapbox.framework */; };
 		DB34CDE0207B998A005F8E8C /* TiMapboxModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = DB34CDDE207B998A005F8E8C /* TiMapboxModuleAssets.m */; };
 		DB34CDE1207B998A005F8E8C /* TiMapboxModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = DB34CDDF207B998A005F8E8C /* TiMapboxModuleAssets.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB34CDE6207B9EBD005F8E8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB34CDE5207B9EBD005F8E8C /* Foundation.framework */; };
 		DB52E2401E9CCF8D00AAAEE0 /* TiMapbox_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = DB52E23F1E9CCF8D00AAAEE0 /* TiMapbox_Prefix.pch */; };
 		DB52E2431E9CD0F800AAAEE0 /* TiMapboxModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB52E2421E9CD0F800AAAEE0 /* TiMapboxModule.swift */; };
 		DB75E5161E9CD59000809B2D /* TiMapbox.h in Headers */ = {isa = PBXBuildFile; fileRef = DB75E5151E9CD58100809B2D /* TiMapbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DBB66221208481A800EAD6D9 /* TitaniumKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB6621E2084819D00EAD6D9 /* TitaniumKit.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		DBB6621D2084819D00EAD6D9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DBB662182084819D00EAD6D9 /* TitaniumKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DB258CCD1F09757E000D0D8D;
-			remoteInfo = TitaniumKit;
-		};
-		DBB6621F208481A400EAD6D9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DBB662182084819D00EAD6D9 /* TitaniumKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = DB258CCC1F09757E000D0D8D;
-			remoteInfo = TitaniumKit;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		DB24E03B20766AC90033B2B1 /* TiMapboxExampleProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TiMapboxExampleProxy.swift; path = Classes/TiMapboxExampleProxy.swift; sourceTree = "<group>"; };
+		3AF2E5CF2167DD8300CE1C59 /* TitaniumKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TitaniumKit.framework; path = "../../../../../../Library/Application Support/Titanium/mobilesdk/osx/8.0.0.v20181003073835/iphone/Frameworks/TitaniumKit.framework"; sourceTree = "<group>"; };
+		3AF2E5D12167DDFD00CE1C59 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapbox.framework; path = Carthage/Build/iOS/Mapbox.framework; sourceTree = "<group>"; };
 		DB34CDDE207B998A005F8E8C /* TiMapboxModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiMapboxModuleAssets.m; path = Classes/TiMapboxModuleAssets.m; sourceTree = SOURCE_ROOT; };
 		DB34CDDF207B998A005F8E8C /* TiMapboxModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiMapboxModuleAssets.h; path = Classes/TiMapboxModuleAssets.h; sourceTree = SOURCE_ROOT; };
 		DB34CDE5207B9EBD005F8E8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -45,7 +29,6 @@
 		DB52E2411E9CD09900AAAEE0 /* titanium.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
 		DB52E2421E9CD0F800AAAEE0 /* TiMapboxModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TiMapboxModule.swift; path = Classes/TiMapboxModule.swift; sourceTree = "<group>"; };
 		DB75E5151E9CD58100809B2D /* TiMapbox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TiMapbox.h; path = Classes/TiMapbox.h; sourceTree = "<group>"; };
-		DBB662182084819D00EAD6D9 /* TitaniumKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TitaniumKit.xcodeproj; path = "/Users/hans/Library/Application Support/Titanium/mobilesdk/osx/8.0.0.v20181003073835/iphone/TitaniumKit/TitaniumKit.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +36,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBB66221208481A800EAD6D9 /* TitaniumKit.framework in Frameworks */,
+				3AF2E5D02167DD8300CE1C59 /* TitaniumKit.framework in Frameworks */,
 				DB34CDE6207B9EBD005F8E8C /* Foundation.framework in Frameworks */,
+				3AF2E5D22167DDFD00CE1C59 /* Mapbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				DB52E2421E9CD0F800AAAEE0 /* TiMapboxModule.swift */,
-				DB24E03B20766AC90033B2B1 /* TiMapboxExampleProxy.swift */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -86,6 +69,8 @@
 		DB34CDE2207B9D6A005F8E8C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3AF2E5D12167DDFD00CE1C59 /* Mapbox.framework */,
+				3AF2E5CF2167DD8300CE1C59 /* TitaniumKit.framework */,
 				DB34CDE5207B9EBD005F8E8C /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -94,7 +79,6 @@
 		DB52E2201E9CCD7000AAAEE0 = {
 			isa = PBXGroup;
 			children = (
-				DBB662182084819D00EAD6D9 /* TitaniumKit.xcodeproj */,
 				DB52E22C1E9CCD7000AAAEE0 /* TiMapbox */,
 				DB52E22B1E9CCD7000AAAEE0 /* Products */,
 				DB34CDE2207B9D6A005F8E8C /* Frameworks */,
@@ -116,14 +100,6 @@
 				DB258CA41F0964DE000D0D8D /* Misc */,
 			);
 			name = TiMapbox;
-			sourceTree = "<group>";
-		};
-		DBB662192084819D00EAD6D9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DBB6621E2084819D00EAD6D9 /* TitaniumKit.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,7 +130,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				DBB66220208481A400EAD6D9 /* PBXTargetDependency */,
 			);
 			name = TiMapbox;
 			productName = TiMapbox;
@@ -167,7 +142,7 @@
 		DB52E2211E9CCD7000AAAEE0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1000;
 				TargetAttributes = {
 					DB52E2291E9CCD7000AAAEE0 = {
 						CreatedOnToolsVersion = 8.3;
@@ -176,7 +151,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DB52E2241E9CCD7000AAAEE0 /* Build configuration list for PBXProject "TiMapbox" */;
+			buildConfigurationList = DB52E2241E9CCD7000AAAEE0 /* Build configuration list for PBXProject "titanium-mapbox" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -186,28 +161,12 @@
 			mainGroup = DB52E2201E9CCD7000AAAEE0;
 			productRefGroup = DB52E22B1E9CCD7000AAAEE0 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = DBB662192084819D00EAD6D9 /* Products */;
-					ProjectRef = DBB662182084819D00EAD6D9 /* TitaniumKit.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				DB52E2291E9CCD7000AAAEE0 /* TiMapbox */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		DBB6621E2084819D00EAD6D9 /* TitaniumKit.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = TitaniumKit.framework;
-			remoteRef = DBB6621D2084819D00EAD6D9 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		DB52E2281E9CCD7000AAAEE0 /* Resources */ = {
@@ -224,21 +183,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB24E03C20766AC90033B2B1 /* TiMapboxExampleProxy.swift in Sources */,
 				DB34CDE0207B998A005F8E8C /* TiMapboxModuleAssets.m in Sources */,
 				DB52E2431E9CD0F800AAAEE0 /* TiMapboxModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		DBB66220208481A400EAD6D9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TitaniumKit;
-			targetProxy = DBB6621F208481A400EAD6D9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		DB52E2301E9CCD7000AAAEE0 /* Debug */ = {
@@ -252,15 +202,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -288,7 +246,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -310,15 +268,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -366,6 +332,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(USER_LIBRARY_DIR)/Application\\ Support/Titanium/mobilesdk/osx/8.0.0.v20181003073835/iphone/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = TiMapbox_Prefix.pch;
@@ -383,7 +351,7 @@
 					"-ObjC",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.appcelerator.titanium-mapbox;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appcelerator.titanium-mapbox";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Titanium";
@@ -408,6 +376,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(USER_LIBRARY_DIR)/Application\\ Support/Titanium/mobilesdk/osx/8.0.0.v20181003073835/iphone/Frameworks",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = TiMapbox_Prefix.pch;
@@ -422,7 +392,7 @@
 					"-ObjC",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.appcelerator.titanium-mapbox;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appcelerator.titanium-mapbox";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Titanium";
@@ -434,7 +404,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DB52E2241E9CCD7000AAAEE0 /* Build configuration list for PBXProject "TiMapbox" */ = {
+		DB52E2241E9CCD7000AAAEE0 /* Build configuration list for PBXProject "titanium-mapbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB52E2301E9CCD7000AAAEE0 /* Debug */,

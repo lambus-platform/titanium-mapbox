@@ -2,10 +2,11 @@
 //  TiMapboxModule.swift
 //  titanium-mapbox
 //
-//  Created by Your Name
-//  Copyright (c) 2018 Your Company. All rights reserved.
+//  Created by Hans Knöchel
+//  Copyright (c) 2018 Lambus. All rights reserved.
 //
 
+import Mapbox
 import UIKit
 import TitaniumKit
 
@@ -41,10 +42,10 @@ class TiMapboxModule: TiModule {
     debugPrint("[DEBUG] \(self) loaded")
   }
   
-  @objc(tryThis:)
-  func tryThis(arguments: Array<Any>?) -> String {
-    guard let arguments = arguments, let message = arguments.first else { return "No arguments" }
-    
-    return "\(message) from TiSwift!"
+  /// MARK: Public API's
+  
+  @objc(accessToken)
+  func accessToken() -> String? {
+    return MGLAccountManager.accessToken
   }
 }

@@ -1,0 +1,11 @@
+framework module TiMapbox {
+  umbrella header "TiMapbox.h"
+
+  export *
+  module * { export * }
+}
+
+module TiMapbox.Swift {
+    header "TiMapbox-Swift.h"
+    requires objc
+}
