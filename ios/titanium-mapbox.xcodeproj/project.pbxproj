@@ -26,6 +26,12 @@
 		24DD6CFA1134B3F500162E58 /* TiMapboxModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* TiMapboxModule.m */; };
 		24DE9E1111C5FE74003F90F6 /* TiMapboxModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* TiMapboxModuleAssets.h */; };
 		24DE9E1211C5FE74003F90F6 /* TiMapboxModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* TiMapboxModuleAssets.m */; };
+		3A18BC94218A2F4B00DB1C2F /* TiMapboxViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A18BC92218A2F4B00DB1C2F /* TiMapboxViewProxy.h */; };
+		3A18BC95218A2F4B00DB1C2F /* TiMapboxViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A18BC93218A2F4B00DB1C2F /* TiMapboxViewProxy.m */; };
+		3A18BC98218A2F6600DB1C2F /* TiMapboxView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A18BC96218A2F6600DB1C2F /* TiMapboxView.h */; };
+		3A18BC99218A2F6600DB1C2F /* TiMapboxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A18BC97218A2F6600DB1C2F /* TiMapboxView.m */; };
+		3A280CF0218A3ECB004D3449 /* TiMapboxAnnotationProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A280CEE218A3ECB004D3449 /* TiMapboxAnnotationProxy.h */; };
+		3A280CF1218A3ECB004D3449 /* TiMapboxAnnotationProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A280CEF218A3ECB004D3449 /* TiMapboxAnnotationProxy.m */; };
 		3A43AB282186516F0018B01F /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A43AB272186516F0018B01F /* Mapbox.framework */; };
 		AA747D9F0F9514B9006C5449 /* TiMapbox_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* TiMapbox_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
@@ -47,6 +53,12 @@
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
 		24DE9E0F11C5FE74003F90F6 /* TiMapboxModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiMapboxModuleAssets.h; path = Classes/TiMapboxModuleAssets.h; sourceTree = "<group>"; };
 		24DE9E1011C5FE74003F90F6 /* TiMapboxModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiMapboxModuleAssets.m; path = Classes/TiMapboxModuleAssets.m; sourceTree = "<group>"; };
+		3A18BC92218A2F4B00DB1C2F /* TiMapboxViewProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TiMapboxViewProxy.h; path = Classes/TiMapboxViewProxy.h; sourceTree = "<group>"; };
+		3A18BC93218A2F4B00DB1C2F /* TiMapboxViewProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TiMapboxViewProxy.m; path = Classes/TiMapboxViewProxy.m; sourceTree = "<group>"; };
+		3A18BC96218A2F6600DB1C2F /* TiMapboxView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TiMapboxView.h; path = Classes/TiMapboxView.h; sourceTree = "<group>"; };
+		3A18BC97218A2F6600DB1C2F /* TiMapboxView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TiMapboxView.m; path = Classes/TiMapboxView.m; sourceTree = "<group>"; };
+		3A280CEE218A3ECB004D3449 /* TiMapboxAnnotationProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TiMapboxAnnotationProxy.h; path = Classes/TiMapboxAnnotationProxy.h; sourceTree = "<group>"; };
+		3A280CEF218A3ECB004D3449 /* TiMapboxAnnotationProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TiMapboxAnnotationProxy.m; path = Classes/TiMapboxAnnotationProxy.m; sourceTree = "<group>"; };
 		3A43AB272186516F0018B01F /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapbox.framework; path = platform/Mapbox.framework; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* TiMapbox_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiMapbox_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -101,6 +113,12 @@
 				24DE9E1011C5FE74003F90F6 /* TiMapboxModuleAssets.m */,
 				24DD6CF71134B3F500162E58 /* TiMapboxModule.h */,
 				24DD6CF81134B3F500162E58 /* TiMapboxModule.m */,
+				3A18BC92218A2F4B00DB1C2F /* TiMapboxViewProxy.h */,
+				3A18BC93218A2F4B00DB1C2F /* TiMapboxViewProxy.m */,
+				3A18BC96218A2F6600DB1C2F /* TiMapboxView.h */,
+				3A18BC97218A2F6600DB1C2F /* TiMapboxView.m */,
+				3A280CEE218A3ECB004D3449 /* TiMapboxAnnotationProxy.h */,
+				3A280CEF218A3ECB004D3449 /* TiMapboxAnnotationProxy.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -121,8 +139,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A280CF0218A3ECB004D3449 /* TiMapboxAnnotationProxy.h in Headers */,
 				AA747D9F0F9514B9006C5449 /* TiMapbox_Prefix.pch in Headers */,
+				3A18BC98218A2F6600DB1C2F /* TiMapboxView.h in Headers */,
 				24DD6CF91134B3F500162E58 /* TiMapboxModule.h in Headers */,
+				3A18BC94218A2F4B00DB1C2F /* TiMapboxViewProxy.h in Headers */,
 				24DE9E1111C5FE74003F90F6 /* TiMapboxModuleAssets.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,8 +218,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A18BC99218A2F6600DB1C2F /* TiMapboxView.m in Sources */,
 				24DD6CFA1134B3F500162E58 /* TiMapboxModule.m in Sources */,
 				24DE9E1211C5FE74003F90F6 /* TiMapboxModuleAssets.m in Sources */,
+				3A280CF1218A3ECB004D3449 /* TiMapboxAnnotationProxy.m in Sources */,
+				3A18BC95218A2F4B00DB1C2F /* TiMapboxViewProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,39 +1,31 @@
-// This is a test harness for your module
-// You should do something interesting in this harness
-// to test out the module and to provide instructions
-// to users on how to use it by example.
+var Mapbox = require('ti.mapbox');
+Mapbox.accessToken = 'YOUR_API_KEY';
 
+// !! Remember to set the geolocation permissions before using this module !!
+//  <key>NSLocationWhenInUseUsageDescription</key>
+//  <string>Can we use your location?</string>
 
-// open a single window
-var win = Ti.UI.createWindow({
-	backgroundColor:'white'
+var win = Ti.UI.createWindow();
+
+var mapView = Mapbox.createView({
+    scrollEnabled: true,
+    zoomEnabled: true,
+    minimumZoomLevel: 0.0,
+    maximumZoomLevel: 25.5,
+    userLocation: true,
+    showsScale: true,
+    rotateEnabled: true,
+    styleURL: 'mapbox://styles/mapbox/streets-v9',
+    userLocation: true,
+    userTrackingMode: Mapbox.USER_TRACKING_MODE_FOLLOW_WITH_HEADING
 });
-var label = Ti.UI.createLabel();
-win.add(label);
+
+mapView.addAnnotation(Mapbox.createAnnotation({ 
+    latitude: 37.390749,
+    longitude: -122.081651,
+    title: 'Appcelerator Headquarters',
+    subtitle: 'Mountain View, CA'
+}))
+
+win.add(mapView);
 win.open();
-
-// TODO: write your module tests here
-var titanium_mapbox = require('ti.mapbox');
-Ti.API.info("module is => " + titanium_mapbox);
-
-label.text = titanium_mapbox.example();
-
-Ti.API.info("module exampleProp is => " + titanium_mapbox.exampleProp);
-titanium_mapbox.exampleProp = "This is a test value";
-
-if (Ti.Platform.name == "android") {
-	var proxy = titanium_mapbox.createExample({
-		message: "Creating an example Proxy",
-		backgroundColor: "red",
-		width: 100,
-		height: 100,
-		top: 100,
-		left: 150
-	});
-
-	proxy.printMessage("Hello world!");
-	proxy.message = "Hi world!.  It's me again.";
-	proxy.printMessage("Hello world!");
-	win.add(proxy);
-}
-
